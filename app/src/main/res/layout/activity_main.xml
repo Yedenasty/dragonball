@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <ImageView
+            android:id="@+id/songo_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/songoblisko"
+            android:transitionName="animacja_songo"
+            />
+
+        <TextView
+            android:id="@+id/Songotext"
+            android:text="Son Goku"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/songo_maly"
+            android:layout_toEndOf="@+id/songo_maly" />
+
+        <ImageView
+            android:id="@+id/vegeta_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/songo_maly"
+            android:src="@drawable/vegeta"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/vegetatext"
+            android:text="Vegeta"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/Songotext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/krilan_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/vegeta_maly"
+            android:src="@drawable/krilan"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/krilantext"
+            android:text="Krilan"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/vegetatext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/gohan_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/krilan_maly"
+            android:src="@drawable/songohanek"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/gohantext"
+            android:text="Son Gohan"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/krilantext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/puar_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/gohan_maly"
+            android:src="@drawable/puar"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/puartext"
+            android:text="Puar"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/gohantext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/dragon_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/puar_maly"
+            android:src="@drawable/dragon"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/dragontext"
+            android:text="Dragon"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/puartext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/zolw_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dragon_maly"
+            android:src="@drawable/zolw"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/zolwtext"
+            android:text="Genialny\nŻółw"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/dragontext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+            />
+
+        <ImageView
+            android:id="@+id/yamcha_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/zolw_maly"
+            android:src="@drawable/yamcha"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/yamchatext"
+            android:text="Yamcha"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/zolwtext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+        <ImageView
+            android:id="@+id/tenshin_maly"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/yamcha_maly"
+            android:src="@drawable/tenshinhan"
+            android:transitionName="animacja_songo" />
+
+        <TextView
+            android:id="@+id/tenshintext"
+            android:text="Tenshinhan"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textColor="@color/colorZloty"
+            android:layout_below="@+id/yamchatext"
+            android:layout_alignLeft="@+id/Songotext"
+            android:layout_alignStart="@+id/Songotext"
+             />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
